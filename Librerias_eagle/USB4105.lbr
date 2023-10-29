@@ -59,45 +59,6 @@
 </layers>
 <library>
 <packages>
-<package name="24-VFQFN">
-<smd name="1" x="-4.953" y="3.175" dx="1.4732" dy="0.6096" layer="1" roundness="50"/>
-<smd name="2" x="-4.953" y="1.905" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R180"/>
-<smd name="3" x="-4.953" y="0.635" dx="1.4732" dy="0.6096" layer="1" roundness="50"/>
-<smd name="4" x="-4.953" y="-0.635" dx="1.4732" dy="0.6096" layer="1" roundness="50"/>
-<smd name="5" x="-4.953" y="-1.905" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R180"/>
-<smd name="6" x="-4.953" y="-3.175" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R180"/>
-<smd name="7" x="-3.175" y="-4.85775" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R270"/>
-<smd name="8" x="-1.905" y="-4.85775" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R270"/>
-<smd name="9" x="-0.635" y="-4.85775" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R270"/>
-<smd name="10" x="0.635" y="-4.85775" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R270"/>
-<smd name="11" x="1.905" y="-4.85775" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R270"/>
-<smd name="12" x="3.175" y="-4.85775" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R270"/>
-<smd name="13" x="4.953" y="-3.175" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R180"/>
-<smd name="14" x="4.953" y="-1.905" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R180"/>
-<smd name="15" x="4.953" y="-0.635" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R180"/>
-<smd name="16" x="4.953" y="0.635" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R180"/>
-<smd name="17" x="4.953" y="1.905" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R180"/>
-<smd name="18" x="4.953" y="3.175" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R180"/>
-<smd name="19" x="-3.175" y="4.8895" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R270"/>
-<smd name="20" x="-1.905" y="4.8895" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R270"/>
-<smd name="21" x="-0.635" y="4.8895" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R270"/>
-<smd name="22" x="0.635" y="4.8895" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R270"/>
-<smd name="23" x="1.905" y="4.8895" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R270"/>
-<smd name="24" x="3.175" y="4.8895" dx="1.4732" dy="0.6096" layer="1" roundness="50" rot="R270"/>
-<wire x1="-5.207" y1="5.207" x2="-5.207" y2="-5.207" width="0.127" layer="51"/>
-<wire x1="-5.207" y1="-5.207" x2="5.207" y2="-5.207" width="0.127" layer="51"/>
-<wire x1="5.207" y1="-5.207" x2="5.207" y2="5.207" width="0.127" layer="51"/>
-<wire x1="5.207" y1="5.207" x2="-5.207" y2="5.207" width="0.127" layer="51"/>
-<text x="-2.159" y="6.477" size="0.9" layer="25">&gt;NAME</text>
-<wire x1="-5.08" y1="5.334" x2="5.08" y2="5.334" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-5.334" x2="5.08" y2="-5.334" width="0.127" layer="21"/>
-<wire x1="-5.334" y1="5.334" x2="-5.334" y2="-5.334" width="0.127" layer="21"/>
-<wire x1="-5.334" y1="-5.334" x2="5.334" y2="-5.334" width="0.127" layer="21"/>
-<wire x1="5.334" y1="-5.334" x2="5.334" y2="5.334" width="0.127" layer="21"/>
-<wire x1="5.334" y1="5.334" x2="-5.334" y2="5.334" width="0.127" layer="21"/>
-<circle x="-3.81" y="3.175" radius="0.359209375" width="0.127" layer="21"/>
-<rectangle x1="-6.096" y1="-5.842" x2="6.096" y2="5.842" layer="39"/>
-</package>
 <package name="USB4105-GF-A">
 <smd name="B7" x="-1.8796" y="10.1473" dx="2.921" dy="0.762" layer="1" roundness="50" rot="R90"/>
 <smd name="A5" x="-3.1496" y="10.1473" dx="2.921" dy="0.762" layer="1" roundness="50" rot="R90"/>
@@ -148,78 +109,8 @@
 <pin name="SBU1" x="2.54" y="-2.54" length="middle"/>
 <pin name="SBU2" x="2.54" y="-7.62" length="middle"/>
 </symbol>
-<symbol name="TPS25740B">
-<pin name="CTL1" x="-38.1" y="7.62" length="middle" direction="out"/>
-<pin name="CTL2" x="-38.1" y="2.54" length="middle" direction="out"/>
-<pin name="CTL3" x="-38.1" y="-2.54" length="middle" direction="out"/>
-<pin name="PCTRL" x="-30.48" y="-22.86" length="middle" direction="in" rot="R90"/>
-<pin name="VAUX" x="-20.32" y="-22.86" length="middle" direction="out" rot="R90"/>
-<pin name="NGD" x="-12.7" y="-22.86" length="middle" direction="in" rot="R90"/>
-<pin name="VTX" x="-5.08" y="-22.86" length="middle" direction="out" rot="R90"/>
-<pin name="DVDD" x="0" y="-22.86" length="middle" direction="out" rot="R90"/>
-<pin name="HIPWR" x="12.7" y="-22.86" length="middle" direction="in" rot="R90"/>
-<pin name="VPWR" x="-30.48" y="22.86" length="middle" direction="pwr" rot="R270"/>
-<pin name="GDNG" x="-25.4" y="22.86" length="middle" direction="out" rot="R270"/>
-<pin name="GDNS" x="-12.7" y="22.86" length="middle" direction="in" rot="R270"/>
-<pin name="ISNS" x="-7.62" y="22.86" length="middle" direction="in" rot="R270"/>
-<pin name="VBUS" x="5.08" y="22.86" length="middle" direction="in" rot="R270"/>
-<pin name="DSCG" x="10.16" y="22.86" length="middle" direction="out" rot="R270"/>
-<pin name="CC1" x="22.86" y="22.86" length="middle" rot="R270"/>
-<pin name="NENSRC" x="38.1" y="7.62" length="middle" direction="out" rot="R180"/>
-<pin name="PSEL" x="17.78" y="-22.86" length="middle" direction="in" rot="R90"/>
-<pin name="GND" x="25.4" y="-22.86" length="middle" direction="pwr" rot="R90"/>
-<pin name="AGND" x="30.48" y="-22.86" length="middle" direction="pwr" rot="R90"/>
-<wire x1="-33.02" y1="17.78" x2="33.02" y2="17.78" width="0.254" layer="94"/>
-<wire x1="33.02" y1="17.78" x2="33.02" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="33.02" y1="-17.78" x2="-33.02" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-33.02" y1="-17.78" x2="-33.02" y2="17.78" width="0.254" layer="94"/>
-<pin name="VDD" x="38.1" y="12.7" length="middle" direction="pwr" rot="R180"/>
-<pin name="CC2" x="17.78" y="22.86" length="middle" rot="R270"/>
-<pin name="N/C2" x="38.1" y="-7.62" length="middle" direction="nc" rot="R180"/>
-<pin name="N/C1" x="38.1" y="-2.54" length="middle" direction="nc" rot="R180"/>
-<text x="-12.7" y="30.48" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
 </symbols>
 <devicesets>
-<deviceset name="TPS25740B">
-<gates>
-<gate name="G$1" symbol="TPS25740B" x="-58.42" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="24-VFQFN">
-<connects>
-<connect gate="G$1" pin="AGND" pad="18"/>
-<connect gate="G$1" pin="CC1" pad="2"/>
-<connect gate="G$1" pin="CC2" pad="3"/>
-<connect gate="G$1" pin="CTL1" pad="6"/>
-<connect gate="G$1" pin="CTL2" pad="7"/>
-<connect gate="G$1" pin="CTL3" pad="8"/>
-<connect gate="G$1" pin="DSCG" pad="24"/>
-<connect gate="G$1" pin="DVDD" pad="13"/>
-<connect gate="G$1" pin="GDNG" pad="22"/>
-<connect gate="G$1" pin="GDNS" pad="23"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="HIPWR" pad="5"/>
-<connect gate="G$1" pin="ISNS" pad="19"/>
-<connect gate="G$1" pin="N/C1" pad="9"/>
-<connect gate="G$1" pin="N/C2" pad="10"/>
-<connect gate="G$1" pin="NENSRC" pad="11"/>
-<connect gate="G$1" pin="NGD" pad="15"/>
-<connect gate="G$1" pin="PCTRL" pad="14"/>
-<connect gate="G$1" pin="PSEL" pad="12"/>
-<connect gate="G$1" pin="VAUX" pad="16"/>
-<connect gate="G$1" pin="VBUS" pad="21"/>
-<connect gate="G$1" pin="VDD" pad="17"/>
-<connect gate="G$1" pin="VPWR" pad="20"/>
-<connect gate="G$1" pin="VTX" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="USB4105-GF-A">
 <gates>
 <gate name="G$1" symbol="USB4105GFA" x="7.62" y="-2.54"/>
