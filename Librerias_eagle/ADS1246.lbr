@@ -59,7 +59,7 @@
 </layers>
 <library>
 <packages>
-<package name="16-TSSOP">
+<package name="ADS1246IPWR">
 <smd name="1" x="-2.9" y="2.275" dx="1.5" dy="0.45" layer="1" roundness="50"/>
 <smd name="2" x="-2.9" y="1.625" dx="1.5" dy="0.45" layer="1" roundness="50"/>
 <smd name="3" x="-2.9" y="0.975" dx="1.5" dy="0.45" layer="1" roundness="50"/>
@@ -114,12 +114,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ADS1246">
+<deviceset name="ADS1246IPWR">
 <gates>
 <gate name="G$1" symbol="ADS_SYMBOL" x="-2.54" y="12.7"/>
 </gates>
 <devices>
-<device name="" package="16-TSSOP">
+<device name="" package="ADS1246IPWR">
 <connects>
 <connect gate="G$1" pin="AINN" pad="8"/>
 <connect gate="G$1" pin="AINP" pad="7"/>
