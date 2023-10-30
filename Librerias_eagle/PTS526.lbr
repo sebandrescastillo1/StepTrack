@@ -55,7 +55,7 @@
 <layer number="95" name="Names" color="52" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -78,18 +78,20 @@
 </packages>
 <symbols>
 <symbol name="BOTON_SYMBOL">
-<wire x1="0" y1="5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="7.62" width="0.254" layer="94"/>
-<pin name="PIN1$1" x="-25.4" y="7.62" length="middle"/>
-<pin name="PIN2$2" x="25.4" y="7.62" length="middle" rot="R180"/>
-<pin name="PIN3$3" x="-25.4" y="-5.08" length="middle"/>
-<pin name="PIN4$4" x="25.4" y="-5.08" length="middle" rot="R180"/>
-<text x="-2.54" y="10.16" size="2.54" layer="95">&gt;NAME</text>
-<wire x1="0" y1="7.62" x2="-20.32" y2="7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="20.32" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-20.32" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="20.32" y2="-5.08" width="0.254" layer="94"/>
+<pin name="PIN1" x="-12.7" y="2.54" length="middle"/>
+<pin name="PIN2" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="PIN3" x="-12.7" y="-2.54" length="middle"/>
+<pin name="PIN4" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<text x="-5.08" y="-7.62" size="2.54" layer="95">&gt;NAME</text>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-8.128" y1="4.064" x2="-2.54" y2="4.064" width="0.254" layer="94"/>
+<wire x1="8.128" y1="4.064" x2="2.54" y2="4.064" width="0.254" layer="94"/>
+<wire x1="2.54" y1="4.064" x2="-2.54" y2="4.064" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="4.064" x2="-2.54" y2="6.604" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="6.604" x2="2.54" y2="6.604" width="0.254" layer="94"/>
+<wire x1="2.54" y1="6.604" x2="2.54" y2="4.064" width="0.254" layer="94"/>
+<wire x1="8.128" y1="4.318" x2="-8.128" y2="4.318" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -100,10 +102,10 @@
 <devices>
 <device name="" package="PTS526">
 <connects>
-<connect gate="BOTON$1" pin="PIN1$1" pad="1"/>
-<connect gate="BOTON$1" pin="PIN2$2" pad="2"/>
-<connect gate="BOTON$1" pin="PIN3$3" pad="3"/>
-<connect gate="BOTON$1" pin="PIN4$4" pad="4"/>
+<connect gate="BOTON$1" pin="PIN1" pad="1"/>
+<connect gate="BOTON$1" pin="PIN2" pad="2"/>
+<connect gate="BOTON$1" pin="PIN3" pad="3"/>
+<connect gate="BOTON$1" pin="PIN4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>

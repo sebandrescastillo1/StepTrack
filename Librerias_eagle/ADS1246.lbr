@@ -116,27 +116,27 @@
 <devicesets>
 <deviceset name="ADS1246IPWR">
 <gates>
-<gate name="G$1" symbol="ADS_SYMBOL" x="-2.54" y="12.7"/>
+<gate name="U1" symbol="ADS_SYMBOL" x="-2.54" y="12.7"/>
 </gates>
 <devices>
 <device name="" package="ADS1246IPWR">
 <connects>
-<connect gate="G$1" pin="AINN" pad="8"/>
-<connect gate="G$1" pin="AINP" pad="7"/>
-<connect gate="G$1" pin="AVDD" pad="10"/>
-<connect gate="G$1" pin="AVSS" pad="9"/>
-<connect gate="G$1" pin="CLK" pad="3"/>
-<connect gate="G$1" pin="DGND" pad="2"/>
-<connect gate="G$1" pin="DIN" pad="15"/>
-<connect gate="G$1" pin="DOUT/NDRDY" pad="14"/>
-<connect gate="G$1" pin="DVDD" pad="1"/>
-<connect gate="G$1" pin="NCS" pad="12"/>
-<connect gate="G$1" pin="NDRDY" pad="13"/>
-<connect gate="G$1" pin="NRESET" pad="4"/>
-<connect gate="G$1" pin="REFN" pad="6"/>
-<connect gate="G$1" pin="REFP" pad="5"/>
-<connect gate="G$1" pin="SCLK" pad="16"/>
-<connect gate="G$1" pin="START" pad="11"/>
+<connect gate="U1" pin="AINN" pad="8"/>
+<connect gate="U1" pin="AINP" pad="7"/>
+<connect gate="U1" pin="AVDD" pad="10"/>
+<connect gate="U1" pin="AVSS" pad="9"/>
+<connect gate="U1" pin="CLK" pad="3"/>
+<connect gate="U1" pin="DGND" pad="2"/>
+<connect gate="U1" pin="DIN" pad="15"/>
+<connect gate="U1" pin="DOUT/NDRDY" pad="14"/>
+<connect gate="U1" pin="DVDD" pad="1"/>
+<connect gate="U1" pin="NCS" pad="12"/>
+<connect gate="U1" pin="NDRDY" pad="13"/>
+<connect gate="U1" pin="NRESET" pad="4"/>
+<connect gate="U1" pin="REFN" pad="6"/>
+<connect gate="U1" pin="REFP" pad="5"/>
+<connect gate="U1" pin="SCLK" pad="16"/>
+<connect gate="U1" pin="START" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
