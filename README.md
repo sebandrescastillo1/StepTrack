@@ -1,14 +1,9 @@
-# StepTrack
+# StepTrack - Contador de pasos en escalera
 Repositorio contador de pasos 
 ## Contenido
 - Librerias_eagle: Contiene librería de componentes de EAGLE utilizados para el contador de pasos.
-  - 1729128 - PHOENIX CONTACT.lbr: Conector PHOENIX
-  - ADS1246.lbr: Convertidor análogo digital
-  - PTS526.lbr: Botón
-  - STM32F103C8T6 - STM.lbr: MCU
-  - XC6206P332MR-G-TS.lbr: LDO
-  - led_otro.lbr: LED VERDE
-  - led_rojo.lbr: LED ROJO
+- Documentos: Contiene los informes entregables de ELO301
+- Datasheets: Contiene los datasheets de los componentes y otros documentos de interés.
 - Bom.csv: BOM de EAGLE
 - Esquematico.pdf: Esquemático EAGLE en formato pdf
 - Esquematico.sch: ESquemático EAGLE en formato sch
