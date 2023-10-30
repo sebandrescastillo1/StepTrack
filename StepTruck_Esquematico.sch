@@ -9573,9 +9573,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <approved hash="104,1,-93.98,151.13,U3,VBUS1,+5V,,,"/>
 <approved hash="104,1,-93.98,146.05,U3,VBUS2,+5V,,,"/>
 <approved hash="104,1,-93.98,95.25,U3,GND2,GND,,,"/>
-<approved hash="104,1,-73.66,21.59,U$3,VSS,GND,,,"/>
-<approved hash="104,1,-53.34,21.59,U$3,VOUT,+3V3,,,"/>
-<approved hash="104,1,-63.5,44.45,U$3,VIN,+5V,,,"/>
+<approved hash="104,1,-81.28,21.59,U$3,VSS,GND,,,"/>
+<approved hash="104,1,-60.96,21.59,U$3,VOUT,+3V3,,,"/>
+<approved hash="104,1,-71.12,44.45,U$3,VIN,+5V,,,"/>
 <approved hash="104,1,91.44,-139.7,U$6,VCC3V3,+3V3,,,"/>
 </errors>
 </schematic>
