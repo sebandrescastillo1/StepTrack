@@ -8634,25 +8634,23 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="-2.7" y1="-2.7" x2="2.7" y2="-2.7" width="0.3" layer="51"/>
 <wire x1="-2.7" y1="2.7" x2="2.7" y2="2.7" width="0.3" layer="51"/>
 <wire x1="-2.7" y1="2.7" x2="-2.7" y2="-2.7" width="0.3" layer="51"/>
-<text x="-4.826" y="4.064" size="1.905" layer="25">&gt;NAME</text>
-<pad name="1" x="-3.2" y="2.25" drill="1.42" diameter="2.02" shape="square"/>
-<pad name="3" x="-3.2" y="-2.25" drill="1.42" diameter="2.02" shape="square"/>
-<pad name="2" x="3.2" y="2.25" drill="1.42" diameter="2.02" shape="square"/>
+<text x="-2.794" y="3.048" size="0.6096" layer="25">&gt;NAME</text>
 <wire x1="2.7" y1="2.7" x2="2.7" y2="-2.7" width="0.3" layer="51"/>
-<pad name="4" x="3.2" y="-2.25" drill="1.42" diameter="2.02" shape="square"/>
-<rectangle x1="-5.08" y1="-3.81" x2="5.08" y2="3.81" layer="39"/>
-<smd name="PIN1" x="-3.2" y="2.25" dx="1" dy="0.7" layer="1"/>
-<smd name="PIN3" x="-3.2" y="-2.25" dx="1" dy="0.7" layer="1"/>
-<smd name="PIN2" x="3.2" y="2.25" dx="1" dy="0.7" layer="1"/>
-<smd name="PIN4" x="3.2" y="-2.25" dx="1" dy="0.7" layer="1"/>
-<text x="-4.953" y="-5.207" size="1.27" layer="21">&gt;VALUE</text>
+<smd name="PIN1" x="-3.073" y="1.869" dx="1" dy="0.7" layer="1" roundness="50"/>
+<smd name="PIN3" x="-3.073" y="-1.869" dx="1" dy="0.7" layer="1" roundness="50"/>
+<smd name="PIN2" x="3.073" y="1.869" dx="1" dy="0.7" layer="1" roundness="50"/>
+<smd name="PIN4" x="3.073" y="-1.869" dx="1" dy="0.7" layer="1" roundness="50"/>
+<text x="-2.794" y="-3.556" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.81" y1="-3.048" x2="3.81" y2="3.048" layer="39"/>
+<wire x1="-2.794" y1="-2.794" x2="2.794" y2="-2.794" width="0.127" layer="21"/>
+<wire x1="-2.794" y1="2.794" x2="2.794" y2="2.794" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
 <symbol name="BOTON_SYMBOL">
 <pin name="PIN1" x="-12.7" y="2.54" length="middle"/>
-<pin name="PIN2" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="PIN3" x="-12.7" y="-2.54" length="middle"/>
+<pin name="PIN2" x="-12.7" y="-2.54" length="middle"/>
+<pin name="PIN3" x="12.7" y="2.54" length="middle" rot="R180"/>
 <pin name="PIN4" x="12.7" y="-2.54" length="middle" rot="R180"/>
 <text x="-6.858" y="8.382" size="2.54" layer="95">&gt;NAME</text>
 <wire x1="-7.62" y1="2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
@@ -8675,10 +8673,10 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <devices>
 <device name="" package="PTS526">
 <connects>
-<connect gate="BOTON" pin="PIN1" pad="1"/>
-<connect gate="BOTON" pin="PIN2" pad="2"/>
-<connect gate="BOTON" pin="PIN3" pad="3"/>
-<connect gate="BOTON" pin="PIN4" pad="4"/>
+<connect gate="BOTON" pin="PIN1" pad="PIN1"/>
+<connect gate="BOTON" pin="PIN2" pad="PIN2"/>
+<connect gate="BOTON" pin="PIN3" pad="PIN3"/>
+<connect gate="BOTON" pin="PIN4" pad="PIN4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9173,7 +9171,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <junction x="-67.31" y="-175.26"/>
 <junction x="-91.44" y="-175.26"/>
 <pinref part="U8" gate="BOTON" pin="PIN1"/>
-<pinref part="U8" gate="BOTON" pin="PIN3"/>
+<pinref part="U8" gate="BOTON" pin="PIN2"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9387,7 +9385,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="-67.31" y1="-144.78" x2="-59.69" y2="-144.78" width="0.1524" layer="91"/>
 <wire x1="-91.44" y1="-144.78" x2="-86.36" y2="-144.78" width="0.1524" layer="91"/>
 <junction x="-67.31" y="-144.78"/>
-<pinref part="U8" gate="BOTON" pin="PIN2"/>
+<pinref part="U8" gate="BOTON" pin="PIN3"/>
 <pinref part="U8" gate="BOTON" pin="PIN4"/>
 <wire x1="-86.36" y1="-144.78" x2="-67.31" y2="-144.78" width="0.1524" layer="91"/>
 <junction x="-86.36" y="-144.78"/>
