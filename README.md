@@ -7,6 +7,7 @@ Repositorio contador de pasos
 - StepTruck_Esquematico.csv: BOM de EAGLE
 - StepTruck_Esquematico.pdf: Esquemático EAGLE en formato pdf
 - StepTruck_Esquematico.sch: ESquemático EAGLE en formato sch
+- StepTruck_Esquematico.brd: Diseño PCB EAGLE en formato brd
 
 ## Autores
 Grupo 2 - ELO301 S2 2023
